@@ -10,7 +10,6 @@ function Begin () {
   counter = parseInt(counter)
   
   rannum = Math.floor(Math.random() * 10) + 1
-  alert(rannum)
 
   while (inputa != rannum) { 
    inputa = prompt('Please guess a number between 1 and 10')
